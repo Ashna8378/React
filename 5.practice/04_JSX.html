@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Template</title>
+    </head>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <body>
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+
+      function createImage(){
+        return( <img 
+                src="https://c.pxhere.com/photos/93/c7/businessman_man_portrait_male_costume_business_office_office_style-815849.jpg!d"
+                width="300" 
+                height="300" 
+                alt=""img
+            />
+        )
+       }
+       
+
+      ReactDOM.render([createImage(),createImage()], document.getElementById("root"))
+
+    </script>
+    </body>
+</html>
+
+
+
+
+

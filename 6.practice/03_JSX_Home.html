@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Template</title>
+
+        <style>
+            *{
+                margin: 0;
+
+            }
+            .header{
+                background-color: black;
+                color: white;
+                text-align: center;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .main{
+               padding: 30px;
+                    
+                
+            }
+
+            .footer{
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding: 50px;
+            }
+        </style>
+    </head>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <body>
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+
+      function Header(){
+        return (
+            <div className="header">
+               <h1>Header Section</h1>
+            </div>
+        )
+      }
+
+      function Main(){
+        return (
+            <div className="main">
+              <h2>Yes, Finally React looks like HTML</h2>
+              <br/>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur velit, quod ut consectetur nostrum exercitationem aspernatur saepe fuga voluptatum adipisci doloremque eius nulla aliquid expedita ducimus in nobis optio omnis error. Quas quaerat perspiciatis accusamus culpa vitae ad repellat eaque dolor blanditiis. Aut tenetur veniam esse, ratione facilis excepturi asperiores nemo quaerat non quidem! Explicabo cumque reiciendis nobis consectetur, pariatur a dolores minus magni eligendi libero. Officiis, fugit assumenda natus ut vero accusantium necessitatibus ex provident modi ipsa beatae pariatur exercitationem repellat facere nobis omnis quibusdam quisquam quos rem, numquam magnam dignissimos possimus. Obcaecati facilis maxime natus accusantium quas perspiciatis?</p>
+              <br/>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos odio perspiciatis vel eveniet minima sunt in? Ipsam, optio rerum omnis ea, alias eaque doloremque quibusdam iusto ipsa obcaecati, expedita a recusandae rem hic? Qui repellat temporibus, sunt soluta aperiam, voluptatum non illum minima nulla eum cupiditate repellendus aut eaque fuga!</p>
+              <br/>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem atque explicabo alias architecto expedita illum eaque nostrum magni delectus similique non qui earum, incidunt cumque nesciunt itaque dolor animi, vero temporibus sunt quod aliquam dolorum fuga recusandae? Ad, aperiam veniam? Delectus fuga, optio et dolores voluptatum asperiores aliquam enim, ex pariatur amet quod cum excepturi deleniti nesciunt eveniet perspiciatis molestias nisi quis necessitatibus consequatur! Fugiat neque quo suscipit iste, atque excepturi necessitatibus aliquid hic provident dignissimos ut! Molestiae, veniam quidem nam repudiandae rem amet architecto excepturi obcaecati reprehenderit esse dolorum id cupiditate corrupti ullam aut minima, pariatur aspernatur vitae repellendus.</p>
+              <br />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eveniet ullam ratione, laborum enim molestias dolores eos reprehenderit minus laboriosam maiores nostrum aperiam temporibus possimus. At deleniti ab dolore quaerat blanditiis, vero repellendus porro minima commodi. Corporis neque maiores velit itaque ipsa corrupti quae blanditiis nisi deserunt nulla, libero quam. Optio consequatur adipisci, nulla itaque veritatis sed dignissimos sequi repudiandae animi odit a, minus earum reiciendis, obcaecati expedita hic harum impedit maxime! Ipsam dolorem, suscipit enim error consequatur soluta hic quasi quis illo! Eaque explicabo dignissimos odit non sapiente nesciunt est quisquam sequi repellat maiores, nihil ullam cumque tempore obcaecati.</p>
+              </div>
+
+        )
+      }
+
+      function Footer(){
+        return (
+            <div className="footer">
+                <h3>Footer Section</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed inventore ullam quas quod tempora officiis, ratione perspiciatis aut totam. Explicabo reprehenderit sint accusamus ipsam? Excepturi voluptatem distinctio impedit ea amet nulla modi recusandae, maxime, vero totam maiores ratione ex incidunt fugiat. Optio expedita animi aliquid sint quis non cumque explicabo suscipit, corporis fugit minus neque vero! Magnam officiis ipsam accusantium, saepe eligendi reprehenderit at voluptatem doloremque quae quisquam autem porro neque ducimus deleniti debitis asperiores aspernatur fugit odio et consequatur corporis. Maiores praesentium perferendis mollitia voluptate non ratione, quo aut suscipit itaque optio similique. Vero nam doloremque sit labore autem.</p>
+            </div>
+        )
+      }
+
+      function App(){
+        return (
+           
+          <div>
+
+            <Header />
+            <Main />
+            <Footer />
+
+          </div>
+        )
+      }
+
+      ReactDOM.render(App(), document.getElementById("root"))
+
+    </script>
+    </body>
+</html>
+
+
+
+
+
